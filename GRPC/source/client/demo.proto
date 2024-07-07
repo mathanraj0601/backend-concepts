@@ -1,0 +1,23 @@
+  syntax = "proto3";
+  
+  //models
+  message Car {
+      int32 id =  1;
+      string name = 2;
+      int32 price = 3;
+  }
+  
+  // The number are field number help in efficient encoging and decoding
+  
+  // models
+  message CarGetDTO {
+      int32 id =1;
+  }
+
+
+  // hanlders ( controller )
+  service carPriceSerice {
+    // function ( endpoints )
+      rpc getCarbyId(CarGetDTO) returns (Car);
+      rpc AddCars(Car) returns (Car);
+  }
