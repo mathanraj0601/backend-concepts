@@ -1,14 +1,17 @@
 # Open API
 
-This repository demonstrates the use of Open API Spec file to generate Swagger in Nodejs to interact with the services
+This repository demonstrates the use of an Open API Spec file to generate Swagger in Nodejs to interact with the services
 
 ## Block Diagram
 
 Below is the block diagram illustrating the Role of Open API;
 
+![image](https://github.com/user-attachments/assets/8910d8f2-94fe-4a1b-809e-5dcfcca01f1d)
+
+
 ## Local Setup
 
-Clone the repo and move into the folder of Open API Spec
+Clone the repo and move it into the folder of Open API Spec
 
 install node_modules
 
